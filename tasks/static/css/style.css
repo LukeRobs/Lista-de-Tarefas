@@ -1,0 +1,137 @@
+.container-fluid {
+    padding: 0;
+}
+
+.container-fluid .row {
+    margin: 0;
+}
+.container-fluid a {
+    text-decoration: none;
+}
+/* Navbar */
+
+.navbar {
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+}
+.navbar-nav {
+    margin: auto;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-light .navbar-nav a.nav-link {
+    color: #333;
+    letter-spacing: 2px;
+}
+
+/* Botão de adicionar */
+
+#add-link {
+    text-decoration: none;
+}
+.btn.btn-success {
+    margin-top: 10px;
+}
+.add-div {
+    background-color: #3476e2;
+    cursor: pointer;
+    display: inline-block;
+    color: #FFF;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.fas.fa-plus {
+    color: #FFF;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+/* Search */
+
+.fas.fa-search {
+    position: absolute;
+    top: 160px;
+    right: 300px;
+    cursor: po;
+}
+.search-div {
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+
+
+/* Lista de Tarefas */
+
+.list-div {
+    padding: 0;
+}
+.task-list {
+    padding-left: 0;
+}
+.task-item {
+    list-style: none;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+.fas.fa-trash, .fas.fa-edit {
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+}
+.fas.fa-trash {
+    color: #c70027;
+}
+.fas.fa.edit {
+    color: #202020;
+}
+/* Rodapé */
+
+footer {
+    background-color: #333;
+    height: 300px;
+    border-top: 2px solid #202020;
+}
+footer p {
+    color: #f5f5f5;
+    text-align: center;
+    top: 50%;
+    position: relative;
+}
+
+/* Messages */
+
+ul.messages {
+    padding: 0;
+}
+ul.messages li {
+    list-style: none;
+}
+
+/* Pagination */
+
+.pagination {
+    margin-bottom: 20px;
+}
+.step-links {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.step-link .current {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Login */
+
+.auth-card {
+    margin-bottom: 30px;
+}
